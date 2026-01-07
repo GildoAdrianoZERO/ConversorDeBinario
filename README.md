@@ -36,8 +36,4 @@ O principal objetivo foi criar um conversor funcional respeitando restrições q
 
 ---
 
-## ⚙️ Como Executar o Projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/bin2dec.git](https://github.com/seu-usuario/bin2dec.git)
