@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec Pro | Conversor Binário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="glass-container">
+        <header>
+            <h1>Bin2Dec <span class="badge">Pro</span></h1>
+            <p>Converta sequências binárias de até 8 bits instantaneamente.</p>
+        </header>
+
+        <main>
+            <div class="input-area">
+                <label for="binaryInput">Entrada Binária</label>
+                <input 
+                    type="text" 
+                    id="binaryInput" 
+                    maxlength="8" 
+                    placeholder="Ex: 10101010"
+                    autocomplete="off"
+                >
+                <div id="errorMessage" class="error-msg"></div>
+            </div>
+
+            
+
+            <div class="output-area">
+                <span>Resultado Decimal</span>
+                <div id="decimalOutput" class="result">0</div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Base 2 para Base 10</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
