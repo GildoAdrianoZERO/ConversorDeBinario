@@ -1,6 +1,6 @@
 # Bin2Dec - Conversor Binário para Decimal
 
-Este projeto é uma implementação do desafio **Bin2Dec**, que faz parte da renomada lista de projetos do repositório [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas).
+Este projeto é uma implementação do desafio **Bin2Dec**, que faz parte da lista de projetos do repositório [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas).
 
 O sistema numérico binário é a base de todos os computadores digitais. Este projeto visa proporcionar a prática da matemática de base 2, convertendo sequências de até 8 dígitos binários em seus equivalentes decimais.
 
@@ -35,8 +35,4 @@ O projeto foi desenvolvido com uma abordagem **Vanilla**, garantindo performance
 
 ---
 
-## ⚙️ Como Executar o Projeto
 
-1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/bin2dec.git](https://github.com/seu-usuario/bin2dec.git)
