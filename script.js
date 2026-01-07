@@ -4,7 +4,7 @@ const errorMessage = document.getElementById('errorMessage');
 
 binaryInput.addEventListener('input', () => {
     const value = binaryInput.value;
-    
+
     // Reset de mensagens e estilo
     errorMessage.textContent = "";
     binaryInput.style.borderColor = "rgba(255, 255, 255, 0.1)";
@@ -14,7 +14,7 @@ binaryInput.addEventListener('input', () => {
         return;
     }
 
-    
+    // Validação: apenas 0 ou 1
     if (/[^01]/.test(value)) {
         errorMessage.textContent = "Erro: Insira apenas dígitos 0 ou 1.";
         binaryInput.style.borderColor = "var(--error)";
@@ -23,17 +23,12 @@ binaryInput.addEventListener('input', () => {
     }
 
     let decimalAccumulator = 0;
-    const len = value.length;
 
-    for (let i = 0; i < len; i++) {
-        
-        const digit = value.charAt(i);
-        
-    
-        const exponent = len - 1 - i;
+    for (let i = 0; i < value.length; i++) {
+        decimalAccumulator = decimalAccumulator * 2;
 
-        if (digit === '1') {
-            decimalAccumulator += Math.pow(2, exponent);
+        if (value.charAt(i) === '1') {
+            decimalAccumulator += 1;
         }
     }
 

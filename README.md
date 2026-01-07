@@ -1,17 +1,19 @@
-# Bin2Dec - Conversor Binário para Decimal
+# Bin2Dec – Conversor Binário para Decimal
 
-Este projeto é uma implementação do desafio **Bin2Dec**, que faz parte da renomada lista de projetos do repositório [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas).
+Este projeto é uma implementação do desafio **Bin2Dec**, pertencente à conhecida lista de ideias do repositório [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas).
 
-O sistema numérico binário é a base de todos os computadores digitais. Este projeto visa proporcionar a prática da matemática de base 2, convertendo sequências de até 8 dígitos binários em seus equivalentes decimais.
+O sistema numérico binário é a base do funcionamento dos computadores digitais. Este projeto tem como objetivo exercitar a lógica matemática da base 2, convertendo números binários (com até 8 dígitos) em seus equivalentes decimais de forma didática e interativa.
 
 ---
 
 ## 🚀 O Desafio
 
-O objetivo principal foi criar um conversor funcional respeitando restrições técnicas que estimulam a lógica de programação sem o uso de facilidades modernas de manipulação de listas.
+O principal objetivo foi criar um conversor funcional respeitando restrições que incentivam o raciocínio lógico e o entendimento do processo de conversão binário → decimal, **sem o uso de funções prontas de conversão**
+
 
 ### ⚖️ Restrições Implementadas
-* **Sem Matrizes (Arrays):** O projeto não utiliza arrays para armazenar ou percorrer os bits.
+* **Sem Arrays:** Não são utilizadas matrizes para armazenar ou percorrer os bits.
+* **Sem Funções de Conversão:** Não é utilizado parseInt, Math.pow ou qualquer biblioteca de apoio.
 * **Lógica Matemática Pura:** O cálculo do valor decimal de cada bit é realizado utilizando a função de potência ($2^n$), processando a string de entrada caractere por caractere.
 * **Validação de Entrada:** O sistema alerta o usuário em tempo real caso caracteres diferentes de `0` ou `1` sejam inseridos.
 
@@ -19,7 +21,6 @@ O objetivo principal foi criar um conversor funcional respeitando restrições t
 
 ## 🛠️ Tecnologias Utilizadas
 
-O projeto foi desenvolvido com uma abordagem **Vanilla**, garantindo performance e leveza:
 * **HTML5:** Estrutura semântica.
 * **CSS3:** Design responsivo com estética *Glassmorphism* (efeito de vidro) e gradientes modernos.
 * **JavaScript:** Lógica de conversão, manipulação de DOM e validações.
